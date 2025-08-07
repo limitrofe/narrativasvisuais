@@ -1,0 +1,32 @@
+/* Reset básico e robusto */
+html, body, #svelte {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tipografia DIN Condensed: */
+html, body {
+  font-family: "din-condensed", Arial, sans-serif;
+  font-weight: 300; /* Texto padrão leve */
+}
+
+/* Títulos, intertítulos, destaques e bolds = peso 400 */
+h1, h2, h3, h4, h5, h6,
+.titulo, .intertitulo, .destaque, .bold, strong, b {
+  font-family: "din-condensed", Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* Corpo de texto, listas, inputs, legendas, créditos = peso 300 */
+body, p, li, ul, ol, input, textarea, .texto, .legenda, .creditos {
+  font-family: "din-condensed", Arial, sans-serif;
+  font-weight: 300;
+}

@@ -21,3 +21,23 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Arquivos de mídia pesados
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.psd
+*.ai
+*.sketch
+*.zip
+*.rar
+
+# Imagens muito grandes (opcional - descomente se necessário)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
