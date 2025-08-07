@@ -7,7 +7,11 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''"
+		"prepare": "svelte-kit sync || echo ''",
+		"generate-frames": "node scripts/generate-frames.js",
+		"frames:list": "node scripts/generate-frames.js list",
+		"frames:generate-all": "node scripts/generate-frames.js generate-all",
+		"frames:clean": "node scripts/generate-frames.js clean"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
@@ -21,6 +25,7 @@
 		"gsap": "^3.13.0",
 		"marked": "^15.0.12",
 		"papaparse": "^5.5.3",
-		"svelte-feather-icons": "^4.2.0"
+		"svelte-feather-icons": "^4.2.0",
+		"fluent-ffmpeg": "^2.1.3"
 	}
 }

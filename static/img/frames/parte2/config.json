@@ -1,0 +1,21 @@
+{
+  "videoFile": "parte2.mp4",
+  "videoBaseName": "parte2",
+  "totalFrames": 59,
+  "actualDuration": 9.542875,
+  "extractedDuration": 9.542875,
+  "startTime": 0,
+  "endTime": 9.542875,
+  "framePrefix": "/img/frames/parte2/frame_",
+  "frameExtension": ".jpg",
+  "framePadding": 4,
+  "generatedAt": "2025-08-07T18:17:41.246Z",
+  "scrollyFramesProps": {
+    "framePrefix": "/img/frames/parte2/frame_",
+    "totalFrames": 59,
+    "frameExtension": ".jpg",
+    "framePadding": 4,
+    "startFrame": 1,
+    "endFrame": 59
+  }
+}
